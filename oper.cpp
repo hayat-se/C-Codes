@@ -43,10 +43,10 @@ int main()
         cout<<"Enter hors : ";
         cin>>hours;
         o[i].setDetails(hrsRate , hours);
-        *o[i];
+        //*o[i]; 
     }
 
-    delete o;
+    delete[] o;
     
     
 
