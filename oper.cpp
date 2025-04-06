@@ -43,7 +43,7 @@ int main()
         cout<<"Enter hors : ";
         cin>>hours;
         o[i].setDetails(hrsRate , hours);
-        //*o[i]; 
+        *o[i]; // calling overloading function with * operator.
     }
 
     delete[] o;
